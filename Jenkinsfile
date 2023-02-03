@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git branch: 'Master', url: 'https://github.com/ram-repo/openmrs-core.git'
+                //git branch: 'Master', url: 'https://github.com/ram-repo/openmrs-core.git'
 
                 // Run Maven on a Unix agent.
                 // sh "mvn -Dmaven.test.failure.ignore=true clean package"
